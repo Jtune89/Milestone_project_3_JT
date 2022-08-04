@@ -29,7 +29,7 @@ def get_sales_data():
 def validate_data(values):
     """
     inside the try, converts all string values into integers.
-    raises valueerror if strongs canot be converted into int,
+    raises valueerror if strings canot be converted into int,
     or if there aren't exactly 6 values.
     """
     try:
